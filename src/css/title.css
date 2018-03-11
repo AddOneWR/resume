@@ -1,0 +1,40 @@
+.top-title-div{
+  display: flex;
+  padding: 30px 20px 30px 0;
+}
+.top-img{
+  display: block;
+  width: 140px;
+  height: 140px;
+}
+.top-name{
+  color: #555555;
+  font-size: 25px;
+  margin-top: -10px;
+}
+.top-brief-grid{
+  margin-top: 20px !important;
+}
+.top-job{
+  color: #555555;
+}
+.left-list-div{
+  position: relative;
+}
+.left-list-div:hover .left-btn-div{
+  display: block;
+}
+.right-list-div{
+  position: relative;
+}
+.right-list-div:hover .right-btn-div{
+  display: block;
+}
+@media screen and (max-width: 768px){
+  .top-img-div{
+    min-width: 300px;
+  }
+  .top-img{
+    margin: 0 auto;
+  }
+}

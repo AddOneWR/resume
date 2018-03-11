@@ -1,0 +1,12 @@
+.skill-flex-div{
+  display: flex;
+}
+.skill-flex-div > div{
+  margin-top: 3px;
+}
+.skill-title-font:hover > .skill-btn-div{
+  display: block;
+}
+.skill-div{
+  padding: 0px 12px !important;
+}

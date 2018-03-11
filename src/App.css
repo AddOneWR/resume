@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  display: flex;
+  margin-top: 20px;
+}
+.font-main-body{
+  color:#828282;
+  font-size: 13px;
+}
+.short-label{
+  color: #777777;
+  font-weight: 800;
+}
+.title-font{
+  position: relative;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 800;
+  margin-top: 10px; 
+}
+.title-font-second{
+  color: #555555;
+  font-size: 13px;
+  margin-top: 3px;
+}
+.hid-btn{
+  float: right;
+  height: 20px;
+}
+.btn-div{
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+.min-width140{
+  min-width: 140px;
+}
+.min-width200{
+  min-width: 200px;
+}
+.min-width300{
+  min-width: 300px;
+}
+@media screen and (max-width: 768px){
+  *{
+    text-align: center;
+    justify-content: center;
+  }
+}

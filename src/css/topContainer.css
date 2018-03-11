@@ -1,0 +1,10 @@
+.top-div{
+  position: relative;
+  background-color: #f5f5f5;
+  padding: 0 40px 20px 40px;
+}
+.save-btn{
+  position: absolute !important;
+  top: 10px;
+  right: 10px;
+}
